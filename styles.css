@@ -15,7 +15,7 @@ h1, h2, h3 {
 }
 
 header {
-    background-image: url(header-project.jpg);
+    background-image: url(HEADER.png);
     background-size: cover;
     height: 550px;
     background-position-y: 45%;
