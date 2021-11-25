@@ -298,8 +298,12 @@ footer address {
 footer .event-rev {
     grid-column: 3;
     grid-row: 4;
-    font-size: 0.8vw;
     align-self: end;
+}
+
+.event-rev p, 
+.logo-footer p {
+    font-size: 1vw;
 }
 
 .logo-footer {
