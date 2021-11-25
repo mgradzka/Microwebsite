@@ -276,7 +276,7 @@ header {
 footer {
     background-image: url(pictures/footer.jpeg);
     background-size: cover;
-    height: 550px;
+    height: 50vw;
     background-position-y: 45%;
     width: 100%;
     display: grid;
@@ -291,13 +291,15 @@ footer address {
     place-self: center;
     text-align: center;
     font-size: 1vw;
-    font-weight: 700;
+    font-weight: 400;
+    font-style: normal;
 }
 
 footer .event-rev {
     grid-column: 3;
     grid-row: 4;
     font-size: 0.8vw;
+    align-self: end;
 }
 
 .logo-footer {
