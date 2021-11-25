@@ -63,6 +63,7 @@ header {
     list-style: none;
 }
 
+
 .main-nav-sub li, .main-nav-sub li:hover:first-child {
     list-style: none;
     align-self: center;
@@ -192,5 +193,4 @@ header {
 .welcome div {
     height: 5rem;
     width: 5rem;
-    justify-content: ;
 }
