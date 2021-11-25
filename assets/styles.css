@@ -246,18 +246,11 @@ header {
     text-align: left;
 }
 
-.vl {
-    border-left: 0.02px solid #707070;
-    height: 470px;
-    margin-left: -25px;
-    position: absolute;
-    top: 1350px;
-  }
 /* section 3 */
 .returns {
     background-image: url(pictures/xmas.market.returns.png);
     background-size: cover;
-    height: 550px;
+    height: 40vw;
     background-position-y: 45%;
     width: 100%;
     display: grid;
