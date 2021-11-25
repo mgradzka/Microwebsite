@@ -63,7 +63,8 @@ header {
     list-style: none;
 }
 
-.logo img {
+.logo img,
+.logo-footer img {
     width:100%;
     height: auto;
     max-width: 5rem;
@@ -317,6 +318,34 @@ img.f {
     grid-row: 5;
 }
 
+/* Q&A Christmas market  */
+.questions {
+    padding: 2rem;
+    background-color: #e5e3d6;
+}
+
+.questions h2{
+    padding-bottom: 2rem;
+    color: #d42f22;;
+}
+summary {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    color: #393632;
+}
+
+details,
+details a{
+    font-size: 1rem;
+    color: #393632;
+}
+
+details a:hover {
+    font-weight: bold;
+}
+details {
+    padding: 0 0 1rem 2rem;
+}
 
 /* EVENTS */
 .events {
@@ -369,7 +398,7 @@ img.f {
     grid-row: 1/2;
 } */
 
-/* footer */
+/* FOOTER*/
 footer {
     background-image: url(pictures/footer.jpeg);
     background-size: cover;
@@ -385,11 +414,10 @@ footer {
 footer address {
     grid-column: 2;
     grid-row: 2;
-    place-self: center;
     text-align: center;
     font-size: 1vw;
-    font-weight: 400;
     font-style: normal;
+    font-weight: 600;
 }
 
 footer .event-rev {
@@ -407,4 +435,12 @@ footer .event-rev {
     grid-column: 1;
     grid-row: 4;
     padding-left: 1.5rem;
+}
+
+.logo-footer p{
+    align-self: end;
+}
+
+.logo-footer img{
+    align-self: end;
 }
