@@ -6,9 +6,17 @@
     font-size: 16px;
 }
 
+:root {
+    --yellow: #feca1b;
+    --creamy: #e5e3d6;
+    --red: #d42f22;
+    --grey: #393632;
+    --brown: #cc8868;
+  }
+
 a {
     text-decoration: none;
-    color: #e5e3d6;
+    color: var(--creamy);
     display: inline-block;
     font-size: 1vw;
 }
@@ -37,7 +45,7 @@ img {
 header {
     background-image: url(pictures/HEADER.png);
     background-size: cover;
-    height: 30vw;
+    height: 35vw;
     background-position-y: 45%;
     width: 100%;
     display: grid;
@@ -78,14 +86,14 @@ header {
 }
 
 .main-nav-sub li:hover {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid var(--creamy);
 }
 
 .social-media li {
     border-radius: 50%;
     width: 3vw;
     height: 3vw;
-    background-color: #feca1b;
+    background-color: var(--yellow);
     text-align: right;
     display: flex;
     justify-content: center;
@@ -106,21 +114,21 @@ header {
 
 .main-header h1 {
     font-size: 5vw;
-    color: #e5e3d6;
+    color: var(--creamy);
     font-weight: 900;
     grid-column: 1/3;
     grid-row: 3/4;
 }
 
 .main-header h3 {
-    color: #e5e3d6;
+    color: var(--creamy);
     font-weight: bold;
     grid-column: 1/3;
     grid-row: 4/5;
 }
 
 .main-header h4 {
-    color: #d42f22;
+    color: var(--red);
     font-weight: 900;
     grid-column: 1/3;
     grid-row: 5/6;
@@ -131,34 +139,34 @@ header {
 }
 
 
-/* section 1 */
+/* INTRO */
 .welcome {
     background-image: url(pictures/Background2.png);
     background-size: cover;
     height: 25vw;
     background-position-y: 100%;
     width: 100%;
-    background-color: #e5e3d6;
+    background-color: var(--creamy);
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     grid-template-rows: 1fr 0.8fr auto auto 1fr;
 }
 
 .welcome h2{
-    color: #d42f22;
+    color: var(--red);
     grid-column: 2/3;
     grid-row: 2/3;
 }
 
 .welcome h3{
-    color: #d42f22;
+    color: var(--red);
     grid-column: 2/3;
     grid-row: 3/4;
     padding-bottom: 1rem;
 }
 
 .welcome-p1 {
-    color: #393632;
+    color: var(--grey);
     font-size: 1vw;
     grid-column: 2/3;
     grid-row: 4/5;
@@ -195,10 +203,12 @@ header {
 } */
 
 
+/* OPENING DAY */
+
 .table {
     background-image: url(pictures/Background4.png);
     background-size: cover;
-    height: 775px;
+    height: 50rem;
     background-repeat: no-repeat;
     padding: 3rem;
 }
@@ -210,7 +220,7 @@ header {
 }
 .column{
     padding: 2rem;
-    background-color: #cc8868;
+    background-color: var(--brown);
     border-right: 1px solid #8f8a84;
 }
 .column:last-child {
@@ -231,10 +241,10 @@ header {
 .table h3,
 .table h4 {
     text-align: center;
-    color: #e5e3d6;
+    color: var(--creamy);
 }
 .table h2{
-    color:#e5e3d6;
+    color:var(--creamy);
     font-size: 3.5vw;
 }
 .table h3 {
@@ -242,7 +252,7 @@ header {
     font-size: 3.3vw;
 }
 .table h4{
-    color: #393632;
+    color: var(--grey);
     font-size: 2.4vw;
 }
 
@@ -251,12 +261,12 @@ header {
 }
 
 .column p {
-    color: #393632;
+    color: var(--grey);
     font-size: 1vw;
     text-align: left;
 }
 .opening-day h4 {
-    color: #d42f22;
+    color: var(--red);
     font-weight: 900;
     text-align: left;
 }
@@ -301,7 +311,7 @@ img.f {
     max-width: 5rem;
 }
 
-/* SECTION 3 */
+/* CHRISTMAS MARKET RETURNS */
 .returns {
     background-image: url(pictures/xmas.market.returns.png);
     background-size: cover;
@@ -313,7 +323,7 @@ img.f {
     grid-template-rows: 1fr 1.6fr 0.8fr 0.5fr 1fr; 
 }
 .returns h2 {
-    color: #e5e3d6;
+    color: var(--creamy);
     grid-column: 1/3;
     grid-row: 5;
 }
@@ -321,23 +331,23 @@ img.f {
 /* Q&A Christmas market  */
 .questions {
     padding: 2rem;
-    background-color: #e5e3d6;
+    background-color: var(--creamy);
 }
 
 .questions h2{
     padding-bottom: 2rem;
-    color: #d42f22;;
+    color: var(--red);
 }
 summary {
     font-size: 1.2rem;
     padding-bottom: 1rem;
-    color: #393632;
+    color: var(--grey);
 }
 
 details,
 details a{
     font-size: 1rem;
-    color: #393632;
+    color: var(--grey);
 }
 
 details a:hover {
@@ -349,14 +359,14 @@ details {
 
 /* EVENTS */
 .events {
-    background-color: #393632;
+    background-color: var(--grey);
     padding: 2rem;
 }
 
 .events h2 {
     text-align: center;
     padding-bottom: 1rem;
-    color: #e5e3d6;
+    color: var(--creamy);
 }
 .events h3 {
     text-align: left;
@@ -377,7 +387,7 @@ details {
 }
 
 .events-list article {
-    background-color: #e5e3d6;
+    background-color: var(--creamy);
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -385,6 +395,13 @@ details {
     padding: 1rem 2rem;
 }
 
+.events-list article:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+}
+details, summary {
+    font-size: 1rem;
+}
 .events details:hover {
     cursor:pointer;
 }
@@ -407,8 +424,9 @@ footer {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1.4fr 1fr;
-    grid-template-rows: 1fr 3.5fr 0.5fr 1fr 0.5fr; 
-    color: #e5e3d6;
+    grid-template-rows: 1fr 3.5fr auto; 
+    color: var(--creamy);
+    padding: 1rem 0;
 }
 
 footer address {
@@ -444,3 +462,113 @@ footer .event-rev {
 .logo-footer img{
     align-self: end;
 }
+
+
+@media screen and (max-width: 767px) {
+    body {
+      grid-template-rows: 1fr auto auto 1fr auto auto 1fr;
+      grid-template-columns: auto;
+    }
+    /* header */
+    header{
+        background-size: cover;
+        height: 80vw;
+    }
+    #h1 {
+        font-size: 2.2rem;
+    }
+    header h3{
+        font-size: 1rem
+    }
+    header h4{
+        font-size: 0.9rem;
+    }
+    .main-nav-sub li, .social-media li {
+        font-size: 1rem;
+    }
+    /* intro */
+    .welcome {
+        background-image: none;
+        background-color: var(--creamy);
+        height: 70vw;
+        padding-left: 1rem;
+    }
+    .welcome h2{
+        font-size: 1.6rem;
+    }
+    .welcome h3 {
+        font-size: 1rem;
+    }
+    .welcome p {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
+    .main-nav .logo {
+        width: 2rem;
+        height: auto;
+    }
+    .main-nav ul {
+        gap: 0.5rem;
+    }
+    .main-nav-sub li a{
+        font-size: 0.6rem;
+    }
+
+    .social-media {
+        display: none;
+    }
+
+    /* opening day */
+    .table {
+        padding: 0.5rem;
+        height: 90rem;
+    }
+    .column {
+        padding: 0.5rem
+    }
+    .column p {
+        font-size: 1rem
+    }
+    .table h3 {
+        font-size: 2.1rem;
+    }
+    .a,.b,.c,.d,.e,.f {
+        display: none;
+    }
+    .table h4 {
+        font-size: 1.5rem;
+    }
+    .opening-day {
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin: 0.5rem;
+    }
+    /*  Q&A */
+    .questions h2 {
+        font-size: 1rem;
+    }
+    /* events */
+    .events-list {
+        grid-template-columns: 1fr;
+        grid-template-columns: auto;
+    }
+    .events-list h3 {
+        font-size: 1.3rem;
+    }
+    .events h2,
+    .questions h2,
+    .returns h2{
+        font-size: 1.2rem;
+    }
+    /* xmas market img */
+    .returns {
+        background-size: cover;
+        height: 70vw;
+    }
+    /* footer */
+    footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto ;
+    }
+    
+}  
