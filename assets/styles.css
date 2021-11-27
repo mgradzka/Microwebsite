@@ -532,12 +532,14 @@ footer .event-rev {
     }
     .table h3 {
         font-size: 2.1rem;
+        padding-bottom: 0.5rem;
     }
     .a,.b,.c,.d,.e,.f {
         display: none;
     }
     .table h4 {
         font-size: 1.5rem;
+        padding-bottom: 0.6rem;
     }
     .opening-day {
         grid-template-columns: auto;
