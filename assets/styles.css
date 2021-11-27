@@ -424,9 +424,9 @@ footer {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1.4fr 1fr;
-    grid-template-rows: 1fr 3.5fr auto; 
+    grid-template-rows: 1fr 3.5fr; 
     color: var(--creamy);
-    padding: 1rem 0;
+    padding: 1rem 0.5rem;
 }
 
 footer address {
@@ -440,8 +440,9 @@ footer address {
 
 footer .event-rev {
     grid-column: 3;
-    grid-row: 4;
+    grid-row: 3;
     align-self: end;
+    justify-self: right;
 }
 
 .event-rev p, 
@@ -451,7 +452,7 @@ footer .event-rev {
 
 .logo-footer {
     grid-column: 1;
-    grid-row: 4;
+    grid-row: 3;
     padding-left: 1.5rem;
 }
 
@@ -564,11 +565,5 @@ footer .event-rev {
     .returns {
         background-size: cover;
         height: 70vw;
+        
     }
-    /* footer */
-    footer {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto ;
-    }
-    
-}  
