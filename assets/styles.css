@@ -50,8 +50,8 @@ img {
 
 header {
     background-image: url(pictures/HEADER.png);
+    height: 100vh;
     background-size: cover;
-    height: 35vw;
     background-position-y: 45%;
     width: 100%;
     display: grid;
