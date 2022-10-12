@@ -191,7 +191,7 @@ header {
 
 .column{
     padding: 2rem;
-    background-color: var(--brown);
+    background-color: #ddb5a2;
     border-right: 1px solid #8f8a84;
 }
 .column:last-child {
